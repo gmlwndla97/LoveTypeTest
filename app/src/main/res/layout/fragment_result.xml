@@ -9,7 +9,7 @@
     tools:context=".Fragment.ResultFragment">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tv_main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
@@ -29,6 +29,7 @@
         android:fontFamily="sans-serif-light"
         android:text="May be you give up on love too easily.."
         android:textSize="20sp"
+        android:id="@+id/tv_sub"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
@@ -36,13 +37,15 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/home"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="416dp"
+        android:layout_marginBottom="76dp"
         android:src="@drawable/home"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 

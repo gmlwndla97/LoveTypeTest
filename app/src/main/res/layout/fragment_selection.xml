@@ -69,6 +69,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/previous"
+        android:id="@+id/button_back"
         app:layout_constraintTop_toBottomOf="@id/guideline"
         app:layout_constraintStart_toStartOf="parent"
         />
